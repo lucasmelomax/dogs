@@ -1,0 +1,28 @@
+.nav {
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+}
+
+.navLinks a {
+  color: #333;
+  text-decoration: none;
+}
+
+.linkEntrar::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.5rem;
+  background: url("../assets/usuario.svg") no-repeat center center;
+  height: 17px;
+  width: 14px;
+}
